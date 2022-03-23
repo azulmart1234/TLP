@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `rassi_martinetto`
+-- Base de datos: `rass_martinetto`
 --
 
 -- --------------------------------------------------------
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `alumnos` (
-  `id_legajo` int(11) NOT NULL,
+  `id_legajo` int(11) NOT NUL,
   `nombre` varchar(30) NOT NULL,
   `apellido` varchar(30) NOT NULL,
   `domicilio` varchar(50) NOT NULL,
